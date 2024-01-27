@@ -14,12 +14,12 @@ export default function Sidebar() {
 
 
     return (
-        <div className="border-r-2 h-screen container w-72">
+        <div className="border-r-2 h-screen container w-72 sticky static absolute">
             <ProfileItem />
             {/* Separator */}
             <div className="h-min w-full bg-slate-200"></div>
             <div className="flex justify-between items-center px-4 pt-4">
-                <p className="text-slate-500 text-xs">MY SONGS</p>
+                <p className="text-slate-500 text-xs font-display">MY SONGS</p>
                 <FiPlus color="rgb(100 116 139)"/>
             </div>
             <div>
